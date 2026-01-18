@@ -1,0 +1,646 @@
+[18Jan2026 00:10:55.398] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[18Jan2026 00:10:55.405] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.17 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[18Jan2026 00:10:55.873] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[18Jan2026 00:10:55.939] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Minecraft/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[18Jan2026 00:10:56.414] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.10/fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
+[18Jan2026 00:10:56.416] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.10/javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[18Jan2026 00:10:56.419] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.10/lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[18Jan2026 00:10:56.423] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.10/mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[18Jan2026 00:10:56.728] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[18Jan2026 00:10:56.731] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
+[18Jan2026 00:11:00.294] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[18Jan2026 00:11:00.515] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[18Jan2026 00:11:00.591] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[18Jan2026 00:11:00.874] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 92 options available, 0 override(s) found
+[18Jan2026 00:11:00.900] [main/WARN] [mixin/]: Reference map 'mixins.sons_of_sins.refmap.json' for mixins.sons_of_sins.json could not be read. If this is a development environment you can ignore this message
+[18Jan2026 00:11:00.903] [main/WARN] [mixin/]: Reference map 'mixins.block_factorys_bosses.refmap.json' for mixins.block_factorys_bosses.json could not be read. If this is a development environment you can ignore this message
+[18Jan2026 00:11:03.339] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[18Jan2026 00:11:12.400] [modloading-worker-0/INFO] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Registering config for trashslot:common (COMMON) with 5 properties.
+[18Jan2026 00:11:12.518] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering common data for channel xaerolib:main!
+[18Jan2026 00:11:12.545] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary common config for channel xaerolib:main!
+[18Jan2026 00:11:12.554] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
+[18Jan2026 00:11:12.662] [modloading-worker-0/INFO] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Registering config for waystones:common (COMMON) with 46 properties.
+[18Jan2026 00:11:12.867] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[18Jan2026 00:11:12.870] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[18Jan2026 00:11:12.877] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[18Jan2026 00:11:12.885] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[18Jan2026 00:11:12.886] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[18Jan2026 00:11:12.891] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[18Jan2026 00:11:12.891] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[18Jan2026 00:11:12.897] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[18Jan2026 00:11:13.604] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
+[18Jan2026 00:11:13.604] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
+[18Jan2026 00:11:14.687] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.13.
+[18Jan2026 00:11:14.739] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering common data for channel xaerominimap:main!
+[18Jan2026 00:11:14.827] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary common config for channel xaerominimap:main!
+[18Jan2026 00:11:14.830] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading server config profiles for channel xaerominimap:main!
+[18Jan2026 00:11:15.611] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[18Jan2026 00:11:15.960] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[18Jan2026 00:11:18.318] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[18Jan2026 00:11:18.332] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[18Jan2026 00:11:18.335] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[18Jan2026 00:11:18.339] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[18Jan2026 00:11:18.471] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.sonsofsins.entity.WistiverEntity from class net.mcreator.sonsofsins.SinMonster
+[18Jan2026 00:11:18.472] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.sonsofsins.entity.WistiverEntity from class net.mcreator.sonsofsins.SinMonster
+[18Jan2026 00:11:18.472] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.sonsofsins.entity.WistiverEntity from class net.mcreator.sonsofsins.SinMonster
+[18Jan2026 00:11:18.473] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.sonsofsins.entity.WistiverEntity from class net.mcreator.sonsofsins.SinMonster
+[18Jan2026 00:11:18.473] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.sonsofsins.entity.WistiverEntity from class net.mcreator.sonsofsins.SinMonster
+[18Jan2026 00:11:18.474] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.sonsofsins.entity.WistiverEntity from class net.mcreator.sonsofsins.SinMonster
+[18Jan2026 00:11:18.474] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.sonsofsins.entity.WistiverEntity from class net.mcreator.sonsofsins.SinMonster
+[18Jan2026 00:11:18.710] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Minecraft/servidor_minecraft/config/tombstone-common.toml is not correct. Correcting
+[18Jan2026 00:11:18.714] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18Jan2026 00:11:18.715] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.pvp_unlock_grave was corrected from null to its default, true. 
+[18Jan2026 00:11:18.716] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.restore_effects_on_death was corrected from null to its default, false. 
+[18Jan2026 00:11:18.717] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.loss_on_death_only_for_abandoned_grave was corrected from null to its default, true. 
+[18Jan2026 00:11:18.718] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.loss_on_death_only_for_stackable_items was corrected from null to its default, true. 
+[18Jan2026 00:11:18.719] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.prevent_death_outside_world_border was corrected from null to its default, true. 
+[18Jan2026 00:11:18.721] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.prevent_death_outside_build_height was corrected from null to its default, false. 
+[18Jan2026 00:11:18.721] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.allow_to_fill_existing_grave was corrected from null to its default, true. 
+[18Jan2026 00:11:18.721] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.nerf_ghostly_shape_teleport_with_key was corrected from null to its default, true. 
+[18Jan2026 00:11:18.723] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.sniffer_range was corrected from null to its default, 5. 
+[18Jan2026 00:11:18.723] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.chance_mob_on_grave_recovery was corrected from null to its default, 0. 
+[18Jan2026 00:11:18.724] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.pvp_stolen_xp was corrected from null to its default, 30. 
+[18Jan2026 00:11:18.725] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.chance_loss_on_death was corrected from null to its default, 0. 
+[18Jan2026 00:11:18.726] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.percent_loss_on_death was corrected from null to its default, 0. 
+[18Jan2026 00:11:18.727] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.no_grave_dimension was corrected from null to its default, []. 
+[18Jan2026 00:11:18.731] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alignment was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18Jan2026 00:11:18.731] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alignment.points_free_soul_receptacle was corrected from null to its default, 50. 
+[18Jan2026 00:11:18.732] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alignment.points_plunder_player_grave was corrected from null to its default, -10. 
+[18Jan2026 00:11:18.733] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alignment.points_exorcism_zombie_villager was corrected from null to its default, 20. 
+[18Jan2026 00:11:18.733] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alignment.points_zombify_villager was corrected from null to its default, -20. 
+[18Jan2026 00:11:18.733] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alignment.points_kill_decreasing_alignment was corrected from null to its default, -10. 
+[18Jan2026 00:11:18.734] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alignment.points_kill_increasing_alignment was corrected from null to its default, 10. 
+[18Jan2026 00:11:18.734] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alignment.points_tablet_of_cupidity was corrected from null to its default, -10. 
+[18Jan2026 00:11:18.734] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alignment.points_pray_of_protection was corrected from null to its default, 20. 
+[18Jan2026 00:11:18.734] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alignment.points_earthly_garden was corrected from null to its default, 10. 
+[18Jan2026 00:11:18.734] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alignment.points_kill_tamed_creature was corrected from null to its default, -10. 
+[18Jan2026 00:11:18.737] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18Jan2026 00:11:18.737] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.teleport_dim was corrected from null to its default, true. 
+[18Jan2026 00:11:18.737] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.knowledge_reduce_phantom_spawn was corrected from null to its default, true. 
+[18Jan2026 00:11:18.738] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.time_for_phantom_spawn was corrected from null to its default, 72000. 
+[18Jan2026 00:11:18.741] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.cooldown_request_teleport was corrected from null to its default, -1. 
+[18Jan2026 00:11:18.741] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.cooldown_teleport_death was corrected from null to its default, -1. 
+[18Jan2026 00:11:18.743] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.unhandled_beneficial_effects was corrected from null to its default, [astralsorcery:potiontimefreeze]. 
+[18Jan2026 00:11:18.743] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.unhandled_harmful_effects was corrected from null to its default, [minecraft:nausea]. 
+[18Jan2026 00:11:18.743] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.decrepitude_max_damage was corrected from null to its default, 2147483647. 
+[18Jan2026 00:11:18.746] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key village_siege was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18Jan2026 00:11:18.746] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key village_siege.handle_village_siege was corrected from null to its default, true. 
+[18Jan2026 00:11:18.746] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key village_siege.log_siege_state was corrected from null to its default, false. 
+[18Jan2026 00:11:18.749] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key village_siege.glowing_creature_test was corrected from null to its default, false. 
+[18Jan2026 00:11:18.749] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key village_siege.allow_creative_players_for_siege was corrected from null to its default, true. 
+[18Jan2026 00:11:18.749] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key village_siege.undead_wear_helm_in_siege was corrected from null to its default, false. 
+[18Jan2026 00:11:18.749] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key village_siege.persistent_mob_in_siege was corrected from null to its default, false. 
+[18Jan2026 00:11:18.749] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key village_siege.shuffle_players_for_siege was corrected from null to its default, true. 
+[18Jan2026 00:11:18.749] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key village_siege.siege_chance was corrected from null to its default, 10. 
+[18Jan2026 00:11:18.749] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key village_siege.siege_max_creature was corrected from null to its default, 20. 
+[18Jan2026 00:11:18.749] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key village_siege.delay_siege_test was corrected from null to its default, 200. 
+[18Jan2026 00:11:18.756] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18Jan2026 00:11:18.756] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.can_recycle_damaged_item was corrected from null to its default, true. 
+[18Jan2026 00:11:18.756] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.denied_item_to_recycle was corrected from null to its default, []. 
+[18Jan2026 00:11:18.757] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.can_disenchant_enchanted_book was corrected from null to its default, false. 
+[18Jan2026 00:11:18.757] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.lost_tablet_search_outside_world was corrected from null to its default, true. 
+[18Jan2026 00:11:18.757] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.lost_tablet_modded_structure was corrected from null to its default, true. 
+[18Jan2026 00:11:18.757] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.lost_tablet_denied_structures was corrected from null to its default, []. 
+[18Jan2026 00:11:18.757] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.lost_tablet_denied_worlds was corrected from null to its default, []. 
+[18Jan2026 00:11:18.758] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decorative_grave was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18Jan2026 00:11:18.758] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decorative_grave.can_replace_grave_plate was corrected from null to its default, true. 
+[18Jan2026 00:11:18.758] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decorative_grave.allow_grave_gardian was corrected from null to its default, true. 
+[18Jan2026 00:11:18.765] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decorative_grave.distance_between_grave_guardian was corrected from null to its default, 100. 
+[18Jan2026 00:11:18.766] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decorative_grave.restock_time_grave_guardian was corrected from null to its default, 60. 
+[18Jan2026 00:11:18.766] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decorative_grave.soul_time was corrected from null to its default, 10. 
+[18Jan2026 00:11:18.766] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decorative_grave.soul_chance was corrected from null to its default, 25. 
+[18Jan2026 00:11:18.771] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recovery was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18Jan2026 00:11:18.771] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recovery.recovery_player_enable was corrected from null to its default, true. 
+[18Jan2026 00:11:18.771] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recovery.backup_on_death was corrected from null to its default, true. 
+[18Jan2026 00:11:18.771] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recovery.recovery_player_timer was corrected from null to its default, 19. 
+[18Jan2026 00:11:18.771] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recovery.recovery_player_max_saves was corrected from null to its default, 15. 
+[18Jan2026 00:11:18.771] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recovery.log_auto_backup was corrected from null to its default, false. 
+[18Jan2026 00:11:18.777] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18Jan2026 00:11:18.778] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.max_xp_lost_page was corrected from null to its default, 2000. 
+[18Jan2026 00:11:18.778] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.denied_modid_for_equipment was corrected from null to its default, [tombstone]. 
+[18Jan2026 00:11:18.778] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.only_vanilla_for_equipment was corrected from null to its default, false. 
+[18Jan2026 00:11:18.787] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18Jan2026 00:11:18.787] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.curio_auto_equip was corrected from null to its default, true. 
+[18Jan2026 00:11:18.787] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.curio_bundle_support was corrected from null to its default, true. 
+[18Jan2026 00:11:18.788] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.curio_magic_book_support was corrected from null to its default, true. 
+[18Jan2026 00:11:18.788] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.keep_cosmetic_armor was corrected from null to its default, true. 
+[18Jan2026 00:11:18.793] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.preserve_effects_on_return_end_conquered was corrected from null to its default, true. 
+[18Jan2026 00:11:18.800] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key special_events was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18Jan2026 00:11:18.801] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key special_events.allow_halloween was corrected from null to its default, true. 
+[18Jan2026 00:11:18.801] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key special_events.allow_christmas was corrected from null to its default, true. 
+[18Jan2026 00:11:18.801] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key special_events.allow_spring_bloom was corrected from null to its default, true. 
+[18Jan2026 00:11:18.801] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key special_events.force_special_event was corrected from null to its default, NONE. 
+[18Jan2026 00:11:18.839] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 1/2!
+[18Jan2026 00:11:19.187] [modloading-worker-0/INFO] [com.brutalbosses.BrutalBosses/]: brutalbosses mod initialized
+[18Jan2026 00:11:19.424] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[18Jan2026 00:11:19.875] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 1/2!
+[18Jan2026 00:11:19.877] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[18Jan2026 00:11:19.884] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 2/2!
+[18Jan2026 00:11:19.884] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 2/2!
+[18Jan2026 00:11:19.885] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[18Jan2026 00:11:19.907] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[18Jan2026 00:11:19.994] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.10 Target: null
+[18Jan2026 00:11:19.997] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
+[18Jan2026 00:11:20.112] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[18Jan2026 00:11:20.154] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[18Jan2026 00:11:20.158] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[18Jan2026 00:11:20.216] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[18Jan2026 00:11:20.232] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[18Jan2026 00:11:20.238] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
+[18Jan2026 00:11:20.238] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[18Jan2026 00:11:20.244] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[18Jan2026 00:11:20.273] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 9.0.9 Target: null
+[18Jan2026 00:11:23.323] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18Jan2026 00:11:23.601] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:grave_simple Expected: 1238 Got: 1244
+[18Jan2026 00:11:23.603] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:decorative_grave_simple Expected: 1239 Got: 1245
+[18Jan2026 00:11:23.604] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:grave_normal Expected: 1240 Got: 1246
+[18Jan2026 00:11:23.604] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:decorative_grave_normal Expected: 1241 Got: 1247
+[18Jan2026 00:11:23.605] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:grave_cross Expected: 1242 Got: 1248
+[18Jan2026 00:11:23.606] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:decorative_grave_cross Expected: 1243 Got: 1249
+[18Jan2026 00:11:23.606] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:tombstone Expected: 1244 Got: 1250
+[18Jan2026 00:11:23.608] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:decorative_tombstone Expected: 1245 Got: 1251
+[18Jan2026 00:11:23.610] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:subaraki_grave Expected: 1246 Got: 1252
+[18Jan2026 00:11:23.611] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:decorative_subaraki_grave Expected: 1247 Got: 1253
+[18Jan2026 00:11:23.611] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:grave_original Expected: 1248 Got: 1254
+[18Jan2026 00:11:23.612] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:decorative_grave_original Expected: 1249 Got: 1255
+[18Jan2026 00:11:23.613] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:abandoned_grave Expected: 1250 Got: 1256
+[18Jan2026 00:11:23.614] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:dark_marble Expected: 1251 Got: 1257
+[18Jan2026 00:11:23.616] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:white_marble Expected: 1252 Got: 1258
+[18Jan2026 00:11:23.617] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:blue_marble Expected: 1253 Got: 1259
+[18Jan2026 00:11:23.618] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:green_marble Expected: 1254 Got: 1260
+[18Jan2026 00:11:23.619] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:carmin_marble Expected: 1255 Got: 1261
+[18Jan2026 00:11:23.621] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:dark_marble_slab Expected: 1256 Got: 1262
+[18Jan2026 00:11:23.622] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:white_marble_slab Expected: 1257 Got: 1263
+[18Jan2026 00:11:23.622] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:blue_marble_slab Expected: 1258 Got: 1264
+[18Jan2026 00:11:23.623] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:green_marble_slab Expected: 1259 Got: 1265
+[18Jan2026 00:11:23.623] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:carmin_marble_slab Expected: 1260 Got: 1266
+[18Jan2026 00:11:23.624] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:dark_marble_stairs Expected: 1261 Got: 1267
+[18Jan2026 00:11:23.626] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:white_marble_stairs Expected: 1262 Got: 1268
+[18Jan2026 00:11:23.627] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:blue_marble_stairs Expected: 1263 Got: 1269
+[18Jan2026 00:11:23.631] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:green_marble_stairs Expected: 1264 Got: 1270
+[18Jan2026 00:11:23.632] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:carmin_marble_stairs Expected: 1265 Got: 1271
+[18Jan2026 00:11:23.633] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:dark_marble_wall Expected: 1266 Got: 1272
+[18Jan2026 00:11:23.634] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:white_marble_wall Expected: 1267 Got: 1273
+[18Jan2026 00:11:23.635] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:blue_marble_wall Expected: 1268 Got: 1274
+[18Jan2026 00:11:23.636] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:green_marble_wall Expected: 1269 Got: 1275
+[18Jan2026 00:11:23.637] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:carmin_marble_wall Expected: 1270 Got: 1276
+[18Jan2026 00:11:23.638] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:thornveil Expected: 1271 Got: 1277
+[18Jan2026 00:11:23.644] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:decorative_grave_simple Expected: 2353 Got: 2361
+[18Jan2026 00:11:23.646] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:decorative_grave_normal Expected: 2354 Got: 2362
+[18Jan2026 00:11:23.647] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:decorative_grave_cross Expected: 2355 Got: 2363
+[18Jan2026 00:11:23.647] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:decorative_tombstone Expected: 2356 Got: 2364
+[18Jan2026 00:11:23.647] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:decorative_subaraki_grave Expected: 2357 Got: 2365
+[18Jan2026 00:11:23.648] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:decorative_grave_original Expected: 2358 Got: 2366
+[18Jan2026 00:11:23.648] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:dark_marble Expected: 2359 Got: 2367
+[18Jan2026 00:11:23.649] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:white_marble Expected: 2360 Got: 2368
+[18Jan2026 00:11:23.650] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:blue_marble Expected: 2361 Got: 2369
+[18Jan2026 00:11:23.652] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:green_marble Expected: 2362 Got: 2370
+[18Jan2026 00:11:23.653] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:carmin_marble Expected: 2363 Got: 2371
+[18Jan2026 00:11:23.654] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:dark_marble_slab Expected: 2364 Got: 2372
+[18Jan2026 00:11:23.655] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:white_marble_slab Expected: 2365 Got: 2373
+[18Jan2026 00:11:23.655] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:blue_marble_slab Expected: 2366 Got: 2374
+[18Jan2026 00:11:23.656] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:green_marble_slab Expected: 2367 Got: 2375
+[18Jan2026 00:11:23.657] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:carmin_marble_slab Expected: 2368 Got: 2376
+[18Jan2026 00:11:23.658] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:dark_marble_stairs Expected: 2369 Got: 2377
+[18Jan2026 00:11:23.659] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:white_marble_stairs Expected: 2370 Got: 2378
+[18Jan2026 00:11:23.659] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:blue_marble_stairs Expected: 2371 Got: 2379
+[18Jan2026 00:11:23.660] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:green_marble_stairs Expected: 2372 Got: 2380
+[18Jan2026 00:11:23.660] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:carmin_marble_stairs Expected: 2373 Got: 2381
+[18Jan2026 00:11:23.661] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:dark_marble_wall Expected: 2374 Got: 2382
+[18Jan2026 00:11:23.661] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:white_marble_wall Expected: 2375 Got: 2383
+[18Jan2026 00:11:23.661] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:blue_marble_wall Expected: 2376 Got: 2384
+[18Jan2026 00:11:23.662] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:green_marble_wall Expected: 2377 Got: 2385
+[18Jan2026 00:11:23.664] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:carmin_marble_wall Expected: 2378 Got: 2386
+[18Jan2026 00:11:23.665] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:thornveil Expected: 2379 Got: 2387
+[18Jan2026 00:11:23.665] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:grave_key Expected: 2380 Got: 2388
+[18Jan2026 00:11:23.665] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:grave_plate Expected: 2381 Got: 2389
+[18Jan2026 00:11:23.665] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:ankh_of_prayer Expected: 2382 Got: 2390
+[18Jan2026 00:11:23.665] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:fishing_rod_of_misadventure Expected: 2383 Got: 2391
+[18Jan2026 00:11:23.666] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:grave_dust Expected: 2384 Got: 2392
+[18Jan2026 00:11:23.666] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:essence_of_undeath Expected: 2385 Got: 2393
+[18Jan2026 00:11:23.666] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:impregnated_diamond Expected: 2386 Got: 2394
+[18Jan2026 00:11:23.666] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:bone_needle Expected: 2387 Got: 2395
+[18Jan2026 00:11:23.666] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:strange_scroll Expected: 2388 Got: 2396
+[18Jan2026 00:11:23.667] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:strange_tablet Expected: 2389 Got: 2397
+[18Jan2026 00:11:23.667] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:tablet_of_recall Expected: 2390 Got: 2398
+[18Jan2026 00:11:23.668] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:tablet_of_home Expected: 2391 Got: 2399
+[18Jan2026 00:11:23.668] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:tablet_of_assistance Expected: 2392 Got: 2400
+[18Jan2026 00:11:23.669] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:tablet_of_cupidity Expected: 2393 Got: 2401
+[18Jan2026 00:11:23.670] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:tablet_of_guard Expected: 2394 Got: 2402
+[18Jan2026 00:11:23.671] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:lost_tablet Expected: 2395 Got: 2403
+[18Jan2026 00:11:23.672] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:scroll_of_knowledge Expected: 2396 Got: 2404
+[18Jan2026 00:11:23.673] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:dust_of_vanishing Expected: 2397 Got: 2405
+[18Jan2026 00:11:23.674] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:dust_of_frost Expected: 2398 Got: 2406
+[18Jan2026 00:11:23.674] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:book_of_disenchantment Expected: 2399 Got: 2407
+[18Jan2026 00:11:23.675] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:book_of_recycling Expected: 2400 Got: 2408
+[18Jan2026 00:11:23.676] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:book_of_repairing Expected: 2401 Got: 2409
+[18Jan2026 00:11:23.676] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:book_of_scribe Expected: 2402 Got: 2410
+[18Jan2026 00:11:23.677] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:book_of_magic_impregnation Expected: 2403 Got: 2411
+[18Jan2026 00:11:23.678] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:book_of_soulbound Expected: 2404 Got: 2412
+[18Jan2026 00:11:23.678] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:book_of_oblivion Expected: 2405 Got: 2413
+[18Jan2026 00:11:23.679] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:voodoo_poppet Expected: 2406 Got: 2414
+[18Jan2026 00:11:23.679] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:receptacle_of_familiar Expected: 2407 Got: 2415
+[18Jan2026 00:11:23.680] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:receptacle_of_soul Expected: 2408 Got: 2416
+[18Jan2026 00:11:23.680] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:lollipop Expected: 2409 Got: 2417
+[18Jan2026 00:11:23.681] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:gift Expected: 2410 Got: 2418
+[18Jan2026 00:11:23.682] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:bag_of_seeds Expected: 2411 Got: 2419
+[18Jan2026 00:11:23.682] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:christmas_gift Expected: 2412 Got: 2420
+[18Jan2026 00:11:23.682] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:villager_gift Expected: 2413 Got: 2421
+[18Jan2026 00:11:23.683] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:seeker_rod Expected: 2414 Got: 2422
+[18Jan2026 00:11:23.683] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:christmas_hat Expected: 2415 Got: 2423
+[18Jan2026 00:11:23.684] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:smoke_ball Expected: 2416 Got: 2424
+[18Jan2026 00:11:23.684] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:magic_scroll Expected: 2417 Got: 2425
+[18Jan2026 00:11:23.685] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:gemstone_of_familiar Expected: 2418 Got: 2426
+[18Jan2026 00:11:23.685] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:gemstone_of_merchant Expected: 2419 Got: 2427
+[18Jan2026 00:11:23.686] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:gemstone_of_prayer Expected: 2420 Got: 2428
+[18Jan2026 00:11:23.687] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:gemstone_of_guardian Expected: 2421 Got: 2429
+[18Jan2026 00:11:23.688] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:readable_scroll Expected: 2422 Got: 2430
+[18Jan2026 00:11:23.689] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:ritual_flute Expected: 2423 Got: 2431
+[18Jan2026 00:11:23.689] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:scroll_of_preservation Expected: 2424 Got: 2432
+[18Jan2026 00:11:23.689] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:scroll_of_unstable_intangibility Expected: 2425 Got: 2433
+[18Jan2026 00:11:23.690] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:scroll_of_feather_fall Expected: 2426 Got: 2434
+[18Jan2026 00:11:23.690] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:scroll_of_purification Expected: 2427 Got: 2435
+[18Jan2026 00:11:23.691] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:scroll_of_true_sight Expected: 2428 Got: 2436
+[18Jan2026 00:11:23.692] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:scroll_of_reach Expected: 2429 Got: 2437
+[18Jan2026 00:11:23.693] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:scroll_of_lightning_resistance Expected: 2430 Got: 2438
+[18Jan2026 00:11:23.694] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:scroll_of_frost_resistance Expected: 2431 Got: 2439
+[18Jan2026 00:11:23.694] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:scroll_of_aquatic_life Expected: 2432 Got: 2440
+[18Jan2026 00:11:23.695] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:scroll_of_mercy Expected: 2433 Got: 2441
+[18Jan2026 00:11:23.696] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_0 Expected: 2434 Got: 2442
+[18Jan2026 00:11:23.697] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_1 Expected: 2435 Got: 2443
+[18Jan2026 00:11:23.697] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_2 Expected: 2436 Got: 2444
+[18Jan2026 00:11:23.698] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_3 Expected: 2437 Got: 2445
+[18Jan2026 00:11:23.698] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_4 Expected: 2438 Got: 2446
+[18Jan2026 00:11:23.699] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_5 Expected: 2439 Got: 2447
+[18Jan2026 00:11:23.699] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_6 Expected: 2440 Got: 2448
+[18Jan2026 00:11:23.699] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_7 Expected: 2441 Got: 2449
+[18Jan2026 00:11:23.699] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_8 Expected: 2442 Got: 2450
+[18Jan2026 00:11:23.700] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_9 Expected: 2443 Got: 2451
+[18Jan2026 00:11:23.701] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_10 Expected: 2444 Got: 2452
+[18Jan2026 00:11:23.702] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_11 Expected: 2445 Got: 2453
+[18Jan2026 00:11:23.703] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_12 Expected: 2446 Got: 2454
+[18Jan2026 00:11:23.704] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_13 Expected: 2447 Got: 2455
+[18Jan2026 00:11:23.705] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_14 Expected: 2448 Got: 2456
+[18Jan2026 00:11:23.706] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_15 Expected: 2449 Got: 2457
+[18Jan2026 00:11:23.706] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_16 Expected: 2450 Got: 2458
+[18Jan2026 00:11:23.707] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_17 Expected: 2451 Got: 2459
+[18Jan2026 00:11:23.708] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_18 Expected: 2452 Got: 2460
+[18Jan2026 00:11:23.709] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: tombstone:magic_use01 Expected: 1921 Got: 1925
+[18Jan2026 00:11:23.709] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: tombstone:ghost01 Expected: 1922 Got: 1926
+[18Jan2026 00:11:23.710] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: tombstone:ghost02 Expected: 1923 Got: 1927
+[18Jan2026 00:11:23.710] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: tombstone:ghost03 Expected: 1924 Got: 1928
+[18Jan2026 00:11:23.711] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: tombstone:soul_whisper Expected: 1925 Got: 1929
+[18Jan2026 00:11:23.712] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: tombstone:spectral Expected: 51 Got: 66
+[18Jan2026 00:11:23.713] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: tombstone:earthly_garden Expected: 52 Got: 67
+[18Jan2026 00:11:23.713] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: tombstone:bait Expected: 53 Got: 68
+[18Jan2026 00:11:23.714] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: tombstone:frostbite Expected: 54 Got: 69
+[18Jan2026 00:11:23.714] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: tombstone:darkness Expected: 55 Got: 70
+[18Jan2026 00:11:23.715] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: tombstone:discretion Expected: 56 Got: 71
+[18Jan2026 00:11:23.715] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: tombstone:restoration Expected: 57 Got: 72
+[18Jan2026 00:11:23.716] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: tombstone:grave_guardian Expected: 323 Got: 326
+[18Jan2026 00:11:23.717] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: tombstone:cloud Expected: 324 Got: 327
+[18Jan2026 00:11:23.717] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: tombstone:spectral_bite Expected: 325 Got: 328
+[18Jan2026 00:11:23.718] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: tombstone:spectral_wolf Expected: 326 Got: 329
+[18Jan2026 00:11:25.001] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23183!/assets/.mcassetsroot' uses unexpected schema
+[18Jan2026 00:11:25.003] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23183!/data/.mcassetsroot' uses unexpected schema
+[18Jan2026 00:11:27.497] [Worker-Main-1/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-9.0.9.jar
+[18Jan2026 00:11:28.214] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:irons_spellbooks:chests/trial_chambers/additional_ominous_vault_loot
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'irons_spellbooks:expulsion_ring'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:872) ~[forge-1.20.1-47.4.10-universal.jar%23188!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:849) ~[forge-1.20.1-47.4.10-universal.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[18Jan2026 00:11:28.432] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:irons_spellbooks:chests/citadel/citadel_tomes
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:set_written_book_pages'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:149) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:872) ~[forge-1.20.1-47.4.10-universal.jar%23188!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:849) ~[forge-1.20.1-47.4.10-universal.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[18Jan2026 00:11:28.955] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:irons_spellbooks:chests/citadel/citadel_bookshelf}.pools[8].entries[0]: Unknown loot table called irons_spellbooks:chests/citadel/citadel_tomes
+[18Jan2026 00:11:29.026] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe irons_spellbooks:expulsion_ring
+com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wind_charge'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.4.10-universal.jar%23188!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.4.10-universal.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.10-universal.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.10.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.10.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.10.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[18Jan2026 00:11:29.113] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 13 recipes
+[18Jan2026 00:11:29.351] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1967 advancements
+[18Jan2026 00:11:29.383] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 14 curio slots
+[18Jan2026 00:11:29.392] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[18Jan2026 00:11:29.426] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: brutalbosses.json
+[18Jan2026 00:11:29.435] [main/ERROR] [com.brutalbosses.BrutalBosses/]: Bad attribute id:minecraft:generic.jump_strength in:brutalbosses:rabbitboss
+[18Jan2026 00:11:29.436] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:drowned
+[18Jan2026 00:11:29.437] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:iron_golem
+[18Jan2026 00:11:29.437] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:snow_golem
+[18Jan2026 00:11:29.438] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
+[18Jan2026 00:11:29.438] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:skeleton
+[18Jan2026 00:11:29.438] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:pillager
+[18Jan2026 00:11:29.439] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vex
+[18Jan2026 00:11:29.439] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:evoker
+[18Jan2026 00:11:29.440] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
+[18Jan2026 00:11:29.441] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vindicator
+[18Jan2026 00:11:29.442] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wither_skeleton
+[18Jan2026 00:11:29.444] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wither_skeleton
+[18Jan2026 00:11:29.444] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:cave_spider
+[18Jan2026 00:11:29.445] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
+[18Jan2026 00:11:29.445] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:husk
+[18Jan2026 00:11:29.445] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:evoker
+[18Jan2026 00:11:29.446] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wandering_trader
+[18Jan2026 00:11:29.446] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:guardian
+[18Jan2026 00:11:29.446] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vindicator
+[18Jan2026 00:11:29.447] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:shulker
+[18Jan2026 00:11:29.449] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zoglin
+[18Jan2026 00:11:29.449] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:chicken
+[18Jan2026 00:11:29.449] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:blaze
+[18Jan2026 00:11:29.449] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:witch
+[18Jan2026 00:11:29.449] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:phantom
+[18Jan2026 00:11:29.449] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:mooshroom
+[18Jan2026 00:11:29.449] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:rabbit
+[18Jan2026 00:11:29.449] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:piglin_brute
+[18Jan2026 00:11:29.449] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:ghast
+[18Jan2026 00:11:29.451] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:stray
+[18Jan2026 00:11:30.565] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[18Jan2026 00:11:30.567] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[18Jan2026 00:11:30.568] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[18Jan2026 00:11:30.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[18Jan2026 00:11:30.953] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[18Jan2026 00:11:30.990] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[18Jan2026 00:11:31.111] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18Jan2026 00:11:31.111] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[18Jan2026 00:11:31.112] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18Jan2026 00:11:31.113] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[18Jan2026 00:11:31.148] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Minecraft/servidor_minecraft/config/tombstone-server.toml is not correct. Correcting
+[18Jan2026 00:11:31.150] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18Jan2026 00:11:31.151] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.decay_time was corrected from null to its default, -1. 
+[18Jan2026 00:11:31.151] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.xp_loss_on_death was corrected from null to its default, 95. 
+[18Jan2026 00:11:31.151] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.ghostly_shape_duration was corrected from null to its default, 120. 
+[18Jan2026 00:11:31.153] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18Jan2026 00:11:31.153] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_spectral_bite was corrected from null to its default, true. 
+[18Jan2026 00:11:31.155] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_soulbound was corrected from null to its default, true. 
+[18Jan2026 00:11:31.155] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_magic_siphon was corrected from null to its default, true. 
+[18Jan2026 00:11:31.155] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_plague_bringer was corrected from null to its default, true. 
+[18Jan2026 00:11:31.155] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_curse_of_bones was corrected from null to its default, true. 
+[18Jan2026 00:11:31.156] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_blessing was corrected from null to its default, true. 
+[18Jan2026 00:11:31.156] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_frostbite was corrected from null to its default, true. 
+[18Jan2026 00:11:31.156] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_spectral_conjurer was corrected from null to its default, true. 
+[18Jan2026 00:11:31.156] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_incurable_wounds was corrected from null to its default, true. 
+[18Jan2026 00:11:31.158] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_decrepitude was corrected from null to its default, true. 
+[18Jan2026 00:11:31.158] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_sanctified was corrected from null to its default, true. 
+[18Jan2026 00:11:31.159] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_ruthless_strike was corrected from null to its default, true. 
+[18Jan2026 00:11:31.159] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.soulbound_enchanting_table was corrected from null to its default, true. 
+[18Jan2026 00:11:31.159] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.spectral_bite_enchanting_table was corrected from null to its default, true. 
+[18Jan2026 00:11:31.159] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.magic_siphon_enchanting_table was corrected from null to its default, true. 
+[18Jan2026 00:11:31.159] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.plague_bringer_enchanting_table was corrected from null to its default, true. 
+[18Jan2026 00:11:31.160] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.curse_of_bones_enchanting_table was corrected from null to its default, true. 
+[18Jan2026 00:11:31.160] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.blessing_enchanting_table was corrected from null to its default, true. 
+[18Jan2026 00:11:31.160] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.frostbite_enchanting_table was corrected from null to its default, true. 
+[18Jan2026 00:11:31.160] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.spectral_conjurer_enchanting_table was corrected from null to its default, true. 
+[18Jan2026 00:11:31.162] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.incurable_wounds_enchanting_table was corrected from null to its default, true. 
+[18Jan2026 00:11:31.162] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.decrepitude_enchanting_table was corrected from null to its default, true. 
+[18Jan2026 00:11:31.163] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.sanctified_enchanting_table was corrected from null to its default, true. 
+[18Jan2026 00:11:31.164] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.ruthless_strike_enchanting_table was corrected from null to its default, true. 
+[18Jan2026 00:11:31.167] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key potions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18Jan2026 00:11:31.167] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key potions.allow_earthly_garden was corrected from null to its default, true. 
+[18Jan2026 00:11:31.167] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key potions.allow_bait was corrected from null to its default, true. 
+[18Jan2026 00:11:31.167] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key potions.allow_frostbite was corrected from null to its default, true. 
+[18Jan2026 00:11:31.168] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key potions.allow_darkness was corrected from null to its default, true. 
+[18Jan2026 00:11:31.168] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key potions.allow_discretion was corrected from null to its default, true. 
+[18Jan2026 00:11:31.168] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key potions.allow_restoration was corrected from null to its default, true. 
+[18Jan2026 00:11:31.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18Jan2026 00:11:31.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.chance_enchanted_grave_key was corrected from null to its default, 0. 
+[18Jan2026 00:11:31.173] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.disable_enchanted_grave_key_recipe was corrected from null to its default, false. 
+[18Jan2026 00:11:31.173] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.scroll_duration was corrected from null to its default, 12000. 
+[18Jan2026 00:11:31.173] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.scroll_of_knowledge_loss was corrected from null to its default, 0. 
+[18Jan2026 00:11:31.173] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.tablet_cooldown was corrected from null to its default, 300. 
+[18Jan2026 00:11:31.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.cooldown_reset_perk was corrected from null to its default, 120. 
+[18Jan2026 00:11:31.177] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decorative_grave was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18Jan2026 00:11:31.177] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decorative_grave.prayer_cooldown was corrected from null to its default, 60. 
+[18Jan2026 00:11:31.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18Jan2026 00:11:31.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_voodoo_poppet was corrected from null to its default, true. 
+[18Jan2026 00:11:31.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_receptacle_of_familiar was corrected from null to its default, true. 
+[18Jan2026 00:11:31.182] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_book_of_disenchantment was corrected from null to its default, true. 
+[18Jan2026 00:11:31.182] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_scroll_of_preservation was corrected from null to its default, true. 
+[18Jan2026 00:11:31.182] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_grave_key was corrected from null to its default, true. 
+[18Jan2026 00:11:31.182] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_scroll_of_knowledge was corrected from null to its default, true. 
+[18Jan2026 00:11:31.184] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_tablet_of_recall was corrected from null to its default, true. 
+[18Jan2026 00:11:31.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_tablet_of_home was corrected from null to its default, true. 
+[18Jan2026 00:11:31.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_tablet_of_assistance was corrected from null to its default, true. 
+[18Jan2026 00:11:31.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_tablet_of_guard was corrected from null to its default, true. 
+[18Jan2026 00:11:31.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_tablet_of_cupidity was corrected from null to its default, true. 
+[18Jan2026 00:11:31.186] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_scroll_of_unstable_intangibility was corrected from null to its default, true. 
+[18Jan2026 00:11:31.186] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_scroll_of_feather_fall was corrected from null to its default, true. 
+[18Jan2026 00:11:31.186] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_scroll_of_purification was corrected from null to its default, true. 
+[18Jan2026 00:11:31.186] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_scroll_of_true_sight was corrected from null to its default, true. 
+[18Jan2026 00:11:31.188] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_lost_tablet was corrected from null to its default, true. 
+[18Jan2026 00:11:31.188] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_scroll_of_reach was corrected from null to its default, true. 
+[18Jan2026 00:11:31.188] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_scroll_of_lightning_resistance was corrected from null to its default, true. 
+[18Jan2026 00:11:31.188] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_scroll_of_frost_resistance was corrected from null to its default, true. 
+[18Jan2026 00:11:31.189] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_scroll_of_aquatic_life was corrected from null to its default, true. 
+[18Jan2026 00:11:31.189] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_scroll_of_mercy was corrected from null to its default, true. 
+[18Jan2026 00:11:31.189] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_dust_of_vanishing was corrected from null to its default, true. 
+[18Jan2026 00:11:31.189] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_dust_of_frost was corrected from null to its default, true. 
+[18Jan2026 00:11:31.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_enchanted_bundle was corrected from null to its default, true. 
+[18Jan2026 00:11:31.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_book_of_recycling was corrected from null to its default, true. 
+[18Jan2026 00:11:31.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_book_of_repairing was corrected from null to its default, true. 
+[18Jan2026 00:11:31.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_book_of_magic_impregnation was corrected from null to its default, true. 
+[18Jan2026 00:11:31.193] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_book_of_scribe was corrected from null to its default, true. 
+[18Jan2026 00:11:31.193] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_book_of_soulbound was corrected from null to its default, true. 
+[18Jan2026 00:11:31.193] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_book_of_oblivion was corrected from null to its default, true. 
+[18Jan2026 00:11:31.193] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_smoke_ball was corrected from null to its default, true. 
+[18Jan2026 00:11:31.194] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_seeker_rod was corrected from null to its default, true. 
+[18Jan2026 00:11:31.194] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_christmas_hat was corrected from null to its default, true. 
+[18Jan2026 00:11:31.194] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_bag_of_seeds was corrected from null to its default, true. 
+[18Jan2026 00:11:31.194] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_magic_scroll was corrected from null to its default, true. 
+[18Jan2026 00:11:31.194] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_gemstone_of_familiar was corrected from null to its default, true. 
+[18Jan2026 00:11:31.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_gemstone_of_merchant was corrected from null to its default, true. 
+[18Jan2026 00:11:31.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_gemstone_of_prayer was corrected from null to its default, true. 
+[18Jan2026 00:11:31.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_gemstone_of_guardian was corrected from null to its default, true. 
+[18Jan2026 00:11:31.201] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18Jan2026 00:11:31.201] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.fix_repair_cost_zero was corrected from null to its default, true. 
+[18Jan2026 00:11:31.358] [Server thread/INFO] [Framework/]: Loading server configs...
+[18Jan2026 00:11:31.388] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[18Jan2026 00:11:38.964] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[18Jan2026 00:11:38.964] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[18Jan2026 00:11:39.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[18Jan2026 00:11:44.111] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[18Jan2026 00:11:48.765] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:48.778] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:48.781] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:48.781] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:48.782] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:48.788] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:48.789] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:48.791] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:48.794] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:48.798] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:48.801] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:48.804] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:48.808] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:48.810] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:48.811] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:48.813] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:48.817] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:48.820] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:48.824] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:48.828] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:49.130] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:49.629] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:50.130] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:50.712] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2026 00:11:51.450] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 12321 ms
+[18Jan2026 00:11:51.451] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (20.321s)! For help, type "help"
+[18Jan2026 00:11:51.522] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[18Jan2026 00:11:51.589] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[18Jan2026 00:11:51.590] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[18Jan2026 00:11:51.611] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 14
+[18Jan2026 00:11:51.613] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 17
+[18Jan2026 00:11:51.614] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 16
+[18Jan2026 00:11:51.615] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: InfernalMobsCore commonSetup completed! Modifiers ready: 28
+[18Jan2026 00:11:51.616] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: InfernalMobsCore commonSetup completed! config file at: /workspaces/Minecraft/servidor_minecraft/./config/infernalmobs.cfg
+[18Jan2026 00:12:39.077] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[18Jan2026 00:12:39.142] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: EduFps20[/127.129.140.36:59853] logged in with entity id 749 at (166.89481126658285, 68.0, 23.417249792018165)
+[18Jan2026 00:12:39.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EduFps20 joined the game
+[18Jan2026 00:12:39.725] [Server thread/INFO] [Jade/]: Syncing config to EduFps20 (fff381c4-50f5-33ba-b5c7-a35f75b5b245)
+[18Jan2026 00:13:48.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [EduFps20: Set own game mode to Creative Mode]
+[18Jan2026 00:13:52.397] [Worker-Main-1/INFO] [citadel/]: vanilla surface rule behavior unchanged
+[18Jan2026 00:14:00.170] [Worker-Main-9/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[18Jan2026 00:14:00.171] [Worker-Main-9/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[18Jan2026 00:14:00.171] [Worker-Main-9/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[18Jan2026 00:14:20.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EduFps20 has made the advancement [Barrel Booty]
+[18Jan2026 00:14:34.000] [Server thread/WARN] [tombstone/]: The death event of the player EduFps20 was canceled by another mod
+[18Jan2026 00:14:34.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [EduFps20: Killed EduFps20]
+[18Jan2026 00:14:34.028] [Server thread/INFO] [tombstone/]: The player EduFps20 has successfully been saved
+[18Jan2026 00:14:36.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EduFps20 was killed
+[18Jan2026 00:14:36.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EduFps20 has made the advancement [Your First Grave]
+[18Jan2026 00:14:36.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [EduFps20: Killed EduFps20]
+[18Jan2026 00:14:36.202] [Server thread/INFO] [tombstone/]: The player EduFps20 has successfully been saved
+[18Jan2026 00:17:34.481] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EduFps20 lost connection: Disconnected
+[18Jan2026 00:17:34.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EduFps20 left the game
